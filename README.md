@@ -36,5 +36,12 @@ sum.</em>
         <em>Write a function which receives an array and a number as arguments and returns a new array from
 the elements of the given array which are larger than the given number.</em>
         <br>https://github.com/armeagle777/functions/blob/master/homeTasks/arrayFromArray.js
-    </details>      
+    </details>
+    <summary>Even digits</summary>
+        <em>Write a function, which receives two numbers as arguments and finds all numbers between them
+such that each digit of the number is even. The numbers obtained should be printed in a comma-
+separated sequence on a single line.</em>
+<br>https://github.com/armeagle777/functions/blob/master/homeTasks/evenDigits.js
+</details>
+
 </details>
