@@ -24,5 +24,11 @@ elements depending on passed operation symbol. Write appropriate function for ea
         <summary>List of possible anagrams,</summary>
         <em>Given a word and a list of possible anagrams, select the correct sublist.</em>
         <br>https://github.com/armeagle777/functions/blob/master/homeTasks/anagrams.js
-    </details>    
+    </details> 
+    <details>
+        <summary>Sum of largest numbers in a string</summary>
+        <em>Write a function, which receives a string, finds possible largest numbers in the string and returns their
+sum.</em>
+        <br>https://github.com/armeagle777/functions/blob/master/homeTasks/sumOfNumbers.js
+    </details>     
 </details>
