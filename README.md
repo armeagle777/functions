@@ -37,11 +37,19 @@ sum.</em>
 the elements of the given array which are larger than the given number.</em>
         <br>https://github.com/armeagle777/functions/blob/master/homeTasks/arrayFromArray.js
     </details>
+    <details>
     <summary>Even digits</summary>
         <em>Write a function, which receives two numbers as arguments and finds all numbers between them
-such that each digit of the number is even. The numbers obtained should be printed in a comma-
-separated sequence on a single line.</em>
-<br>https://github.com/armeagle777/functions/blob/master/homeTasks/evenDigits.js
-</details>
+    such that each digit of the number is even. The numbers obtained should be printed in a comma-
+    separated sequence on a single line.</em>
+    <br>https://github.com/armeagle777/functions/blob/master/homeTasks/evenDigits.js
+    </details>
+    <details>
+    <summary>Product of negatives</summary>
+        <em>Write a function, which receives an array as an argument which elements arrays of numbers. Find
+product of biggest negative number of each array. If there is not any negative number, ignore that
+array. Check that items of the given array are arrays.</em>
+    <br>https://github.com/armeagle777/functions/blob/master/homeTasks/productOfNegatives.js
+    </details>
 
 </details>
