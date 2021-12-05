@@ -8,23 +8,22 @@
 //* -> If the phone number contains + symbol not as the first character, consider it as a badnumber.
 
 function phoneNumberValidator(phoneNumber) {
+  let startsWithPlus = false;
   if (phoneNumber.startsWith('+')) {
-    phoneNumber = phoneNumber.substring(1);
-    if (phoneNumber.length === 10 && !phoneNumber.includes('+')) {
-      return phoneNumber;
-    }
+    startsWithPlus = true;
+    phoneNumber = phoneNumber.substr(1);
   }
   if (phoneNumber.includes('+')) {
     return 'Bad number';
   }
-
-  if (phoneNumber.length < 10) {
-    return 'Bad number';
-  } else if (phoneNumber.length === 10) {
+  phoneNumber = phoneNumber.split('').filter(el => parseInt(el) == el);
+  const arrLength = phoneNumber.length;
+  if (arrLength === 10 && startsWithPlus) {
+    return phoneNumber.join('');
+  } else if (arrLength === 10) {
     return 'Good number';
-  } else {
-    return 'Bad number';
   }
+  return 'Bad number';
 }
 
 //? Testing for some phone numbers
