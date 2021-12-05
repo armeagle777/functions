@@ -30,5 +30,11 @@ elements depending on passed operation symbol. Write appropriate function for ea
         <em>Write a function, which receives a string, finds possible largest numbers in the string and returns their
 sum.</em>
         <br>https://github.com/armeagle777/functions/blob/master/homeTasks/sumOfNumbers.js
-    </details>     
+    </details>
+    <details>
+        <summary>Array from array</summary>
+        <em>Write a function which receives an array and a number as arguments and returns a new array from
+the elements of the given array which are larger than the given number.</em>
+        <br>https://github.com/armeagle777/functions/blob/master/homeTasks/arrayFromArray.js
+    </details>      
 </details>
