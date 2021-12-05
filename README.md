@@ -19,5 +19,10 @@ elements depending on passed operation symbol. Write appropriate function for ea
         <summary>Function for cleaning given phone number</summary>
         <em>Given a phone number. Write a function to clean it up, so it is valid.</em>
         <br>https://github.com/armeagle777/functions/blob/master/homeTasks/phoneNumber.js
+    </details>
+    <details>
+        <summary>List of possible anagrams,</summary>
+        <em>Given a word and a list of possible anagrams, select the correct sublist.</em>
+        <br>https://github.com/armeagle777/functions/blob/master/homeTasks/anagrams.js
     </details>    
 </details>
