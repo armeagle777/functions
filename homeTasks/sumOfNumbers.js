@@ -9,6 +9,9 @@ function sumOfNumbers(str) {
   let num = '';
   for (let el of arrayFromStr) {
     if (parseInt(el) == el || el === '-') {
+      if (start === true && el === '-') {
+        continue;
+      }
       start = true;
       num += el;
     } else {
@@ -35,6 +38,6 @@ console.log(
 );
 console.log(
   `In case of “Wert12lop-12”  the output will be: ${sumOfNumbers(
-    'Wert12lop-12'
+    'Wert-12lop--012'
   )}`
 );
